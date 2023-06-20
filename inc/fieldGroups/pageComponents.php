@@ -35,4 +35,4 @@ add_action('Flynt/afterRegisterComponents', function () {
             ],
         ],
     ]);
-});
+}, -1);
