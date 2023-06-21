@@ -17,6 +17,7 @@ add_action('Flynt/afterRegisterComponents', function () {
                 'layouts' => [
                     Components\BlockImageCustom\getACFLayout(), // Child Theme Component 
                     Components\BlockCollapse\getACFLayout(),
+                    Components\BlockImageText\getACFLayout(),
                 ],
             ],
         ],
